@@ -37,7 +37,7 @@ func TestForAndSwitchMultiCase(t *testing.T) {
 	a := 10
 	for true {
 		fmt.Println(a)
-		a -= 1
+		a--
 		time.Sleep(time.Second * 3)
 	}
 }
