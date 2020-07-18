@@ -1,6 +1,10 @@
 package loop
 
-import "testing"
+import (
+	"fmt"
+	"testing"
+	"time"
+)
 
 func TestMultiSec(t *testing.T) {
 	if a := 1 == 1; a {
@@ -28,5 +32,12 @@ func TestForAndSwitchMultiCase(t *testing.T) {
 		default:
 			t.Log("unknow")
 		}
+	}
+
+	a := 10
+	for true {
+		fmt.Println(a)
+		a -= 1
+		time.Sleep(time.Second * 3)
 	}
 }
