@@ -34,6 +34,7 @@ func Sum(ops ...int) int {
 		ret += op
 	}
 	return ret
+
 }
 
 func TestFunc(t *testing.T) {
