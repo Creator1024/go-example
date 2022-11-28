@@ -1,0 +1,2 @@
+2022-11-27T22:47:50.997+0800	INFO	sugared-logger-to-file/main.go:52	Success! statusCode = 200 OK for URL http://www.baidu.com
+2022-11-27T22:47:50.998+0800	ERROR	sugared-logger-to-file/main.go:50	Error fetching URL www.baidu.com : Error = Get "www.baidu.com": unsupported protocol scheme ""
